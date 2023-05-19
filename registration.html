@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register</title>
+</head>
+<body>
+        <header>
+            <div class="container">
+                <div class="header">
+                    <a href="index.html"><img class="logo" src="images/updatedgold1.png" alt="gold logo" ></a>
+                    <div class="navbar">
+                        <a class="animate__animated animate__slow animate__backInDown" href="index.html#about">We Are...</a>
+                        <a class="animate__animated animate__slow animate__backInUp" href="index.html#introduction">You'll Learn...</a>
+                        <a class="animate__animated animate__slow animate__backInDown" href="Blogs">Blogs</a>
+                        <a class="animate__animated animate__slow animate__backInUp" id="login-btn" href="#popup-form">Login</a>
+                    </div>
+                    <button class="btn_action animate__animated animate__slow animate__backInRight"><a href="registration.html">Get Started</a></button>
+                    </div>
+            </div>
+            <div class="toggleBtn" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+                
+            </div>
+            <div class="dropdown_menu open animate__animated animate__delay-.5s animate__bounceInRight" id="myDropDown">
+                <ul>
+                    <li>
+                        <a href="index.html#about">We Are...</a>
+                    </li>
+                    <li>
+                        <a href="index.html#introduction">You'll Learn...</a>
+    
+                    </li>
+                    <li>
+                    <a href="Blogs">Blogs</a>
+                    </li>
+                    <li>
+                    <a href="#popup-form" id="login-btn-mobil">Login</a>
+                    </li>
+                    <li>
+                        <button class="btn_action_dropdown"><a href="registration.html">Get Started</a></button>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="after-pricing">
+            <h2 class="animate__animated animate__slow animate__bounceInRight">
+                Pick A Plan!
+            </h2>
+          
+        </section>
+        
+        <section class="plan-options">
+            <div class="card animate__animated animate__slow animate__bounceInDown">
+              <div class="card-image">
+                <img src="ohn/class.jpeg" alt="class">
+              </div>
+              <div class="card-content">
+                <h3>Forex Course</h3>
+                
+                    <ul>
+                        <li>One-time payment</li>
+                        <li>Access to full course</li>
+                        <li>For beginners and Pros</li>
+                        <li>Lifetime access to course material</li>
+                    </ul>
+                    <span class="bigger-text animate__animated animate__slow animate__flash">$100</span>
+                    <div class="card-button">
+                        <button class="btn_buy" data-course-title="Forex Course"><a href="#register-popup-form">Buy</a></button>
+                      </div>
+              </div>
+            </div>
+            
+            <div class="card animate__animated animate__slow animate__fadeInRightBig">
+    
+                <div class="card-image">
+                  <img src="ohn/class.jpeg" alt="teacher in front of class">
+                </div>
+                <div class="card-content">
+                  <h3>General Online Mentorship</h3>
+                  <ul>
+                    <li>One-time payment</li>
+                    <li>Instant access</li>
+                    <li>For beginners and Pros</li>
+                    <li>2 Live seminars weekly</li>
+                    <li>Lifetime access to course material</li>
+                    <li>Take your career forward</li>
+                    <li>Student support</li>
+                    <li>Access to Live group</li>
+                    <li>Forex help with...</li>
+                    <li>98% positive feedback</li>
+                </ul>
+                     <span class="bigger-text animate__animated animate__slow animate__flash">$500</span>
+                     <div class="card-button">
+                      <button class="btn_buy" data-course-title="General Online Mentorship"><a href="#register-popup-form">Buy</a></button>
+                    </div>
+                </div>
+              </div>
+              
+            <div class="card animate__animated animate__slow animate__bounceInUp">
+    
+                <div class="card-image">
+                  <img src="ohn/guywithhat.jpeg" alt="teacher in front of class">
+                </div>
+                <div class="card-content">
+                  <h3>One-on-One Sessions with King Alxnda</h3>
+                  <ul>
+                    <li>One-time payment</li>
+                    <li>For beginners and Pros</li>
+                    <li>3 weeks learning marathon</li>
+                    <li>2 Live seminars weekly</li>
+                    <li>Lifetime access to course videos</li>
+                    <li>Forex hellp with...</li>
+                    <li>Student support</li>
+                    <li>98% positive feedback</li>
+                </ul>
+                     <span class="bigger-text animate__animated animate__slow animate__flash">$1000.</span>
+                     <div class="card-button">
+                      <button class="btn_buy" data-course-title="One On One Sessions"><a href="#register-popup-form">Buy</a></button>
+                    </div>
+                </div>
+              </div>
+          </section>
+
+          <section class="book_call">
+            <div class="book_call_text">
+                <h2>Questions?</h2>
+                <p>
+                    Book a Free Call with KING ALXNDA <a href="https://calendly.com/kingalxnda/15min">Here</a>
+                </p>
+            </div>
+        </section>
+          
+    <footer class="social_media">
+        <div>
+            <h3>CONTACT</h3>
+        </div>
+        <div class="handles">
+            <div>
+                <a href="https://www.instagram.com/ohnstraining/">
+                    <span class="icon-instagram">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </span>
+                    <label>Instagram</label>
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/ohnstraining">
+                    <span class="icon-twitter">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </span>
+                    <label>Twitter</label>
+                </a>
+            </div>
+            <div>
+                <a href="http://facebook.com/ohnstraining">
+                    <span class="icon-facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </span>
+                    <label>Facebook</label>  
+                </a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/@kingalxnda">
+                    <span class="icon-youtube">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </span>
+                    <label>YouTube</label>  
+                </a>
+            </div>
+        </div>
+        <div class="legal">
+            <div>
+                <p>
+                    <a href="disclaimer.html">
+                    Disclaimer
+                    </a>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <a href="toc.html">
+                    Terms & Conditions
+                    </a>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <a href="privacypolicy.html">
+                    Privacy Policy
+                    </a>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <a href="">
+                    Refund Policy
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                &copy;ohnstraining
+            </p>
+        </div>
+    </footer>
+   
+    
+    <div class="wrapper animate__animated animate__delay-.5s animate__fadeInDown" id="popup-form">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="login.php" method="post" novalidate>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" name="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" name="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    Remember Me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" value="Login" name="login" class="btn-submit">
+                    Login
+                </button>
+                <div class="login-register">
+                    <p>Don't have an account?
+                        <a href="registration.html" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="wrapper-register animate__animated animate__delay-.5s animate__fadeInDown" id="register-popup-form">
+        <span class="icon-close" id="icon-close-two">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box register">
+            <h3>Register</h3>
+            <form action="process-signup.php" method="post" novalidate>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" id="name" name="name" required>
+                    <label>Full Name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" id="email" name="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="book"></ion-icon>
+                    </span>
+                    <input type="text" id="course" name="course">
+                    <label>Course</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" id="password" name="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" id="password_confirmation" name="password_confirmation" required>
+                    <label>Confirm Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    I Agree To The <a href="toc.html">Terms</a></label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn-submit" id="register-btn">
+                    Join Us!
+                </button>
+                <div class="login-register">
+                    <p>Already have an account?
+                        <a href="#popup-form" class="login-link"> Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+ 
+    <script>
+        const buyBtns = document.querySelectorAll(".btn_buy");
+        const registerPopupForm = document.getElementById("register-popup-form");
+        const closeIconTwo = registerPopupForm.querySelector(".icon-close");
+        const loginPopupForm = document.getElementById("popup-form");
+        const closeIconThree = loginPopupForm.querySelector(".icon-close");
+        const registerLink = loginPopupForm.querySelector(".register-link");
+        const loginLink = registerPopupForm.querySelector(".login-link");
+        const courseInput = registerPopupForm.querySelector("#course");
+
+        buyBtns.forEach(function (buyBtn) {
+            buyBtn.addEventListener("click", function (event) {
+            event.preventDefault();
+            registerPopupForm.style.display = "flex";
+            const courseTitle = buyBtn.getAttribute("data-course-title");
+            courseInput.value = courseTitle;
+            });
+        });
+
+        closeIconTwo.addEventListener("click", function () {
+            registerPopupForm.style.display = "none";
+        });
+
+        registerLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        registerPopupForm.style.display = "none";
+        loginPopupForm.style.display = "flex";
+        });
+
+        closeIconThree.addEventListener("click", function () {
+        loginPopupForm.style.display = "none";
+        });
+
+        loginLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        registerPopupForm.style.display = "none";
+        loginPopupForm.style.display = "flex";
+        });
+    </script>
+
+
+
+    <script>
+        const loginBtn = document.getElementById("login-btn");
+        const loginBtnMobile = document.getElementById("login-btn-mobil");
+        const popupForm = document.getElementById("popup-form");
+        const registerLinkTwo = loginPopupForm.querySelector(".register-link");
+        const registerPopupFormTwo = document.getElementById("register-popup-form");
+
+        const closeIcon = popupForm.querySelector(".icon-close");
+
+        loginBtn.addEventListener("click", function() {
+        popupForm.style.display = "flex";
+        });
+
+        loginBtnMobile.addEventListener("click", function() {
+        popupForm.style.display = "flex";
+        });
+
+        closeIcon.addEventListener("click", function() {
+        popupForm.style.display = "none";
+        });
+
+        registerLinkTwo.addEventListener("click", function(event) {
+        event.preventDefault();
+        popupForm.style.display = "none";
+        registerPopupFormTwo.style.display = "flex";
+        });
+    </script>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggleBtn')
+        const toggleBtnIcon = document.querySelector('.toggleBtn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+ 
+        dropDownMenu.classList.remove('open')
+ 
+        toggleBtn.onclick = function () {
+         dropDownMenu.classList.toggle('open')
+         const isOpen = dropDownMenu.classList.contains('open')
+ 
+         toggleBtnIcon.classList = isOpen
+         ? 'fa-solid fa-xmark'
+         : 'fa-solid fa-bars'
+        }
+     </script>
+ 
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

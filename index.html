@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>OHN</title>
+</head>
+<body>
+    <div class="bodyImg">
+        <header>
+            <div class="container">
+                <div class="header">
+                    <a href="index.html"><img class="logo" src="images/updatedgold1.png" alt="gold logo" ></a>
+                    <div class="navbar">
+                        <a class="animate__animated animate__slow animate__backInDown" href="#about">We Are...</a>
+                        <a class="animate__animated animate__slow animate__backInUp" href="#introduction">You'll Learn...</a>
+                        <a class="animate__animated animate__slow animate__backInDown" href="blogs">Blogs</a>
+                        <a class="animate__animated animate__slow animate__backInUp" id="login-btn" href="#popup-form">Login</a>
+                    </div>
+                    <button class="btn_action animate__animated animate__slow animate__backInRight"><a href="registration.html">Get Started</a></button>
+                    </div>
+            </div>
+            <div class="toggleBtn" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+                
+            </div>
+            <div class="dropdown_menu open animate__animated animate__delay-.5s animate__bounceInRight" id="myDropDown">
+                <ul>
+                    <li>
+                        <a href="#about">We Are...</a>
+                    </li>
+                    <li>
+                        <a href="#introduction">You'll Learn...</a>
+    
+                    </li>
+                    <li>
+                    <a href="blogs">Blogs</a>
+                    </li>
+                    <li>
+                    <a href="#popup-form" id="login-btn-mobil">Login</a>
+                    </li>
+                    <li>
+                        <button class="btn_action_dropdown"><a href="registration.html">Get Started</a></button>
+                    </li>
+                </ul>
+            </div>
+        </header>
+            
+        <main>
+            <section class="contentSection">
+                <div class="contentText">
+                    <h1 class="animate__animated animate__slow animate__slideInLeft animate__bounce">
+                        Trading is ONLY difficult when you don't know the ropes...
+                    </h1>
+                    <p class="animate__animated animate__slow animate__slideInRight animate__bounce">
+                        Come and gain the knowledge that gives you that edge you need
+                        <br/> to make a success story out of your finances
+                    </p>
+                    <button class="btn_action_contentText animate__animated animate__bounceIn" ><a href="registration.html">Get Started</a></button>
+    
+                </div>
+                <div class="wrapper animate__animated animate__delay-.5s animate__fadeInDown" id="popup-form">
+                    <span class="icon-close">
+                        <ion-icon name="close"></ion-icon>
+                    </span>
+                    <div class="form-box login">
+                        <h2>Login</h2>
+                        <form action="login.php" method="post" novalidate>
+                            <div class="input-box">
+                                <span class="icon">
+                                    <ion-icon name="mail"></ion-icon>
+                                </span>
+                                <input type="email" name="email" id="email" required>
+                                <label>Email</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon">
+                                    <ion-icon name="lock-closed"></ion-icon>
+                                </span>
+                                <input type="password" name="password" id="password" required>
+                                <label>Password</label>
+                            </div>
+                            <div class="remember-forgot">
+                                <label><input type="checkbox">
+                                Remember Me</label>
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                            <button type="submit" value="Login" name="login" class="btn-submit">
+                                Login
+                            </button>
+                            <div class="login-register">
+                                <p>Don't have an account?
+                                    <a href="registration.html" class="register-link"> Register</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="contentImage">
+                    <div class="card">
+                        <img src="images/companylogobackground1.jpg" alt="logo backdrop">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <section class="welcome_video" id="introduction">
+        <div class="welcomeText">
+            <h1 class="animate__animated animate__bounce" style="margin-bottom: 20px;">Introduction to Forex</h1>
+        </div>
+        <iframe width="860" height="400" src="https://www.youtube.com/embed/NhFlqFVBmxc" title="YouTube video player" frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section class="secondHeader">
+        <h2 class="secondHeaderText animate__animated animate__backInDown">
+            The Mentor
+        </h2>
+    </section>
+    <section class="text_section" id="about">
+        <div class="text_wrapper">
+          <div class="left_text" id="left_text">
+            <p>
+                Hello, my name is Alexander Emmanuel Ohuneniyan (KING ALXNDA). 
+                I was born in Benin City, Edo State, Nigeria and I am from Kogi State. 
+                I have been in the Forex Market since late 2017. Over the years, 
+                I have helped a lot of people understand the concept of trading the financial market and I have trained over 200 individuals spanning as far as USA, 
+                Canada, United Kingdom, Germany, Dubai, Turkey, Cyprus and my home country Nigeria. 
+                My coaching philosophy revolves around teaching at the pace of the individual. 
+                Over the course of 5 years, I have worked with 2 educational companies and finally in 2023, 
+                I decided to start my own educational platform OHNS TRAINING with the sole purpose of teaching individuals that strictly want
+                 to learn my trading style and want fast track their understanding of the marketswgthout limitations.
+            </p>
+            <div class="left_text_profile_pic_card">
+                <img class="profile_pic" src="ohn/profilepic.JPG" alt="profile">
+            </div>
+          </div>
+          <div class="vl animate__animated animate__bounceInDown"></div>
+          <div class="right_text">
+            <h2>
+                <u>
+                    This is NOT a Get-Rich-Quick scheme.
+                </u>
+            </h2>
+            <br/>
+            <p>
+                I believe in Patience, Hard-work and Time. I have taken my time to break down every single step needed and the only barrier to your success is YOU. 
+                Practice births perfection. I believe education comes before anything and mentorship makes the journey easier. I also believe that to be successful in this industry you have to understand trading is just like any other profession, you have to dedicate your time to learning for years to be a professional and if you are going to dedicate yourself to learning the skill-set of trading, with the help of my mentorship, 
+                you are most likely going to create the freedom you always wanted.
+            </p>
+            <div class="right_text_chart_card">
+                <img class="trade_chart" src="ohn/graph.jpeg" alt="trade chart">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quotes_container">
+        <hr class="solid animate__animated animate__bounceInDown">
+        <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 <br/>
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                   
+        </p>
+        <h3> - Gandalf</h3>
+        <hr class="solid animate__animated animate__bounceInDown">
+      </section>
+      <section class="text_section_two">
+        <div class="text_wrapper_two">
+          <div class="left_text_two">
+            <div class="left_text_two_pic_card">
+                <img src="ohn/seminar.PNG" alt="seminar">
+            </div>
+            <p>
+                Trading is the highest self-made paid profession in the world, in this industry your earning is limitless if you learn it the right way and you survive it for 10 years you are going to be wealthy beyond your imagination. 
+                I can guarantee you it is not going to be easy but it is worth being a trader than been a 9-5 slave, 
+                only 0.5% of people who work for 40 years retire into fulfilment. 
+                In trading 3-10 years of practice and trading the right methodology can set you on a part of financial freedom. When you join our mentorship program you automatically become part of our community and we will ensure you become a well-skilled trader Technically, 
+                Fundamentally, and Psychologically. 
+                <br/>
+                <h3 style="font-size: 30px;">
+                    BEST OF LUCK!
+                </h3>
+            </p>
+          </div>
+          <div class="vl_two animate__animated animate__bounceInDown"></div>
+          <div class="right_text_two">
+            <h2 style="margin-bottom: 20px;">
+                <u>
+                    SUCCESS IS SOMETHING YOU SHOW UP TO, IT DOES NOT COME TO YOU.
+                </u>
+            </h2>
+            <div class="rich_nigga_pic_card">
+                <img src="ohn/chillingflight.JPG" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mission_container">
+        <hr class="solid animate__animated animate__bounceInDown">
+         
+        <h2 style="margin-top: 40px;">
+            Who We Are...
+        </h2>
+        <p style="margin-bottom: 40px;">
+            OHNS TRAINING is a Forex Trading training institute with the aim of empowering young entrepreneurs. 
+            <br/>
+            Founded by King Alxnda an Abuja/Nigerian based entrepreneur, with the Forex market as one of his most successful fields
+        </p>
+        <h2>
+            Vision:
+        </h2>
+        <p style="margin-bottom: 40px;">
+            Empowering young entrepreneurs, by giving them the knowledge on how to create wealth through the largest market in the world, 
+            the foreign exchange market. 
+            <br/>
+            Thus exposing them to greater financial freedom and allowing them to venture further.
+        </p>
+        <h2>
+            The Rules:
+        </h2>
+        <p style="margin-bottom: 40px;">
+            The best traders do not carry an ego, you have to swallow your pride and get out of the losses. 
+            <br/>
+            In trading, your investments aren’t about the returns but about how much you don’t lose.
+        </p>
+        <hr class="solid animate__animated animate__bounceInDown" style="margin-bottom: 20px;">
+      </section> 
+      <div class="testimonies-header">
+            <h3>
+                Testimonies
+            </h3>
+        </div>
+      <section class="testimonials">
+       
+       
+        <p>
+            ❝ Greetings boss , I just want to appreciate you for everything these past years with you, 
+            you’ve helped me learn to understand and how to simplify my life with these markets. 
+            Thank you for all Your teachings and especially the consistent support and time you dedicate to see I make it out. 
+            Below are my results from yesterdays trade . Can’t wait to sharpen up my skills after this weekends class. I appreciate.❞
+            <br/>
+            - Mandy
+        </p> <p>
+            ❝ I started learning how to trade from Alx in 2020, he his a professional,
+            and i have learnt a lot from him, he his dedicated and committed to ensuring we all become good and successful traders, 
+            by hosting webinars regularly, showing us new and better ways to trade,
+            answering questions at anytime and giving the right information.❞
+            <br/>
+            - Shalom
+        </p> <p>
+            ❝ After just one session of mentorship with you, 
+            I can't believe how you broke down Fibonacci retracement to me. 
+            Prior to our meeting I had seen several YouTube videos and tutorials, but none could answer my deepest concern about the TA. 
+            Am glad to inform you that am doing very well with using Fibonacci retracement as a technical tool. 
+            You are a master in this game. ❞
+            <br/>
+            - Edward
+        </p>
+      </section>
+      <hr class="solid animate__animated animate__bounceInDown">
+
+      <section class="after-pricing">
+        <h2 class="animate__animated animate__slow animate__bounceInRight">
+            Pick A Plan!
+        </h2>
+      
+    </section>
+      
+      <section class="plan-options">
+        <div class="card animate__animated animate__slow animate__bounceInDown">
+          <div class="card-image">
+            <img src="ohn/plentypeople.jpeg" alt="class">
+          </div>
+          <div class="card-content">
+            <h3>Forex Course</h3>
+            
+                <ul>
+                    <li>One-time payment</li>
+                    <li>Access to full course</li>
+                    <li>For beginners and Pros</li>
+                    <li>Lifetime access to course material</li>
+                </ul>
+                <span class="bigger-text animate__animated animate__slow animate__flash">$100</span>
+                <div class="card-button">
+                    <button class="btn_buy" data-course-title="Forex Course"><a href="#register-popup-form">Buy</a></button>
+                  </div>
+          </div>
+        </div>
+        
+        <div class="card animate__animated animate__slow animate__fadeInRightBig">
+
+            <div class="card-image">
+              <img src="ohn/class.jpeg" alt="teacher in front of class">
+            </div>
+            <div class="card-content">
+              <h3>General Online Mentorship</h3>
+              <ul>
+                <li>One-time payment</li>
+                <li>Instant access</li>
+                <li>For beginners and Pros</li>
+                <li>2 Live seminars weekly</li>
+                <li>Lifetime access to course material</li>
+                <li>Take your career forward</li>
+                <li>Student support</li>
+                <li>Access to Live group</li>
+                <li>Forex help with...</li>
+                <li>98% positive feedback</li>
+            </ul>
+                 <span class="bigger-text animate__animated animate__slow animate__flash">$500</span>
+                 <div class="card-button">
+                  <button class="btn_buy" data-course-title="General Online Mentorship"><a href="#register-popup-form">Buy</a></button>
+                </div>
+            </div>
+          </div>
+          
+        <div class="card animate__animated animate__slow animate__bounceInUp">
+
+            <div class="card-image">
+              <img src="ohn/guywithhat.jpeg" alt="teacher in front of class">
+            </div>
+            <div class="card-content">
+              <h3>One-on-One Sessions with King Alxnda</h3>
+              <ul>
+                <li>One-time payment</li>
+                <li>For beginners and Pros</li>
+                <li>3 weeks learning marathon</li>
+                <li>2 Live seminars weekly</li>
+                <li>Lifetime access to course videos</li>
+                <li>Forex hellp with...</li>
+                <li>Student support</li>
+                <li>98% positive feedback</li>
+            </ul>
+                 <span class="bigger-text animate__animated animate__slow animate__flash">$1000</span>
+                 <div class="card-button">
+                  <button class="btn_buy" data-course-title="One-on-One Sessions"><a href="#register-popup-form">Buy</a></button>
+                </div>
+            </div>
+          </div>
+      </section>
+      <div class="wrapper-register animate__animated animate__delay-.5s animate__fadeInDown" id="register-popup-form">
+        <span class="icon-close" id="icon-close-two">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box register">
+            <h3>Register</h3>
+            <form action="process-signup.php" method="post" novalidate>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" id="name" name="name" required>
+                    <label>Full Name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" id="email" name="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="book"></ion-icon>
+                    </span>
+                    <input type="text" id="course" name="course">
+                    <label>Course</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" id="password" name="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" id="password_confirmation" name="password_confirmation" required>
+                    <label>Confirm Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    I Agree To The <a href="toc.html">Terms</a></label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn-submit" id="register-btn">
+                    Join Us!
+                </button>
+                <div class="login-register">
+                    <p>Already have an account?
+                        <a href="#popup-form" class="login-link"> Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <section class="book_call">
+        <div class="book_call_text">
+            <h2>Questions?</h2>
+            <p>
+                Book a Free Call with KING ALXNDA <a href="https://calendly.com/kingalxnda/15min">Here</a>
+            </p>
+        </div>
+    </section>
+
+    <footer class="social_media">
+        <div>
+            <h3>CONTACT</h3>
+        </div>
+        <div class="handles">
+            <div>
+                <a href="https://www.instagram.com/ohnstraining/">
+                    <span class="icon-instagram">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </span>
+                    <label>Instagram</label>
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/ohnstraining">
+                    <span class="icon-twitter">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </span>
+                    <label>Twitter</label>
+                </a>
+            </div>
+            <div>
+                <a href="http://facebook.com/ohnstraining">
+                    <span class="icon-facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </span>
+                    <label>Facebook</label>  
+                </a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/@kingalxnda">
+                    <span class="icon-youtube">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </span>
+                    <label>YouTube</label>  
+                </a>
+            </div>
+        </div>
+        <div class="legal">
+            <div>
+                <p>
+                    <a href="disclaimer.html">
+                    Disclaimer
+                    </a>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <a href="toc.html">
+                    Terms & Conditions
+                    </a>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <a href="privacypolicy.html">
+                    Privacy Policy
+                    </a>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <a href="">
+                    Refund Policy
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                &copy;ohnstraining
+            </p>
+        </div>
+    </footer>
+ 
+    <script>
+        const buyBtns = document.querySelectorAll(".btn_buy");
+        const registerPopupForm = document.getElementById("register-popup-form");
+        const closeIconTwo = registerPopupForm.querySelector(".icon-close");
+        const loginPopupForm = document.getElementById("popup-form");
+        const closeIconThree = loginPopupForm.querySelector(".icon-close");
+        const registerLink = loginPopupForm.querySelector(".register-link");
+        const loginLink = registerPopupForm.querySelector(".login-link");
+        const courseInput = registerPopupForm.querySelector("#course");
+
+        buyBtns.forEach(function (buyBtn) {
+            buyBtn.addEventListener("click", function (event) {
+            event.preventDefault();
+            registerPopupForm.style.display = "flex";
+            const courseTitle = buyBtn.getAttribute("data-course-title");
+            courseInput.value = courseTitle;
+            });
+        });
+
+        closeIconTwo.addEventListener("click", function () {
+            registerPopupForm.style.display = "none";
+        });
+
+        registerLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        registerPopupForm.style.display = "none";
+        loginPopupForm.style.display = "flex";
+        });
+
+        closeIconThree.addEventListener("click", function () {
+        loginPopupForm.style.display = "none";
+        });
+
+        loginLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        registerPopupForm.style.display = "none";
+        loginPopupForm.style.display = "flex";
+        });
+    </script>
+
+
+    <script>
+        const loginBtn = document.getElementById("login-btn");
+        const loginBtnMobile = document.getElementById("login-btn-mobil");
+        const popupForm = document.getElementById("popup-form");
+        const registerLinkTwo = loginPopupForm.querySelector(".register-link");
+        const registerPopupFormTwo = document.getElementById("register-popup-form");
+
+        const closeIcon = popupForm.querySelector(".icon-close");
+
+        loginBtn.addEventListener("click", function() {
+        popupForm.style.display = "flex";
+        });
+
+        loginBtnMobile.addEventListener("click", function() {
+        popupForm.style.display = "flex";
+        });
+
+        closeIcon.addEventListener("click", function() {
+        popupForm.style.display = "none";
+        });
+
+        registerLinkTwo.addEventListener("click", function(event) {
+        event.preventDefault();
+        popupForm.style.display = "none";
+        registerPopupFormTwo.style.display = "flex";
+        });
+    </script>
+
+    
+    <script>
+       const toggleBtn = document.querySelector('.toggleBtn')
+       const toggleBtnIcon = document.querySelector('.toggleBtn i')
+       const dropDownMenu = document.querySelector('.dropdown_menu')
+
+       dropDownMenu.classList.remove('open')
+
+       toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+       }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+   
+   
+</body>
+</html>

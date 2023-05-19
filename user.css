@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    background: black;
+}
+
+.logo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    color: gold;
+    padding: 20px;
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar-header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.sidebar-header h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.sidebar-header p {
+    font-size: 16px;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+}
+
+.sidebar-menu li {
+    margin-bottom: 10px;
+}
+
+.sidebar-menu li a {
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sidebar-menu li a:hover {
+    color: gold;
+}
+
+.sidebar-menu li.active a {
+    background-color: #2980b9;
+}
+
+.main-content {
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+
+}
+  
+  .main-content h1 {
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .course-container h2 {
+    margin-bottom: 20px;
+  }
+  .course-card {
+    background-color: azure;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .course-card .course-image {
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    position: relative;
+  }
+  
+  .course-card .course-details {
+    padding: 20px;
+  }
+  
+  .course-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .course-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .course-card .button {
+    background-color: #1e88e5;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  

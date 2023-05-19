@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+ 
+}
+
+body {
+    padding: 20px;
+    background: rgb(92,91,98);
+    background: radial-gradient(circle, rgba(92,91,98,1) 0%, rgba(8,2,31,1) 48%, rgba(83,90,92,1) 100%);
+    overflow-x: hidden;
+}
+
+.container {
+    background: azure;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5%;
+    box-shadow: 2px 5px 15px black;
+    padding: 5px;
+
+}
+.logo {
+    width: 100%;
+    height: 50%;
+    height: auto;
+    cursor: pointer;
+}
+.leftbox {
+    float: left;
+    top: -5%;
+    position: absolute;
+    width: 10%;
+    height: 110%;
+    background: black;
+    box-shadow: 2px 5px 15px gold;
+    border: .1em solid azure;
+    padding-top: 20px;
+}
+
+nav a{
+    list-style: none;
+    padding: 60px;
+    color: white;
+    font-size: 2.3em;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+nav a:hover {
+    color: gold;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.active {
+    color: #c47704;
+}
+.rightbox {
+    width: 60%;
+    margin-left: 27%;
+}
+
+.tabShow {
+    transition: all .5s ease-in;
+    width: 80%;
+}
+h1 {
+    font-weight: 500;
+    color: blue;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    letter-spacing: 1px;
+
+}
+h2 {
+    font-weight: 500;
+    color: lightseagreen;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.input {
+    border: none;
+    border-bottom: 1px solid blue;
+    width: 60%;
+    color: black;
+    font-weight: 600;
+    outline: none;
+    padding-bottom:4px;
+
+}
+.checkbox {
+    accent-color: blue;
+    color: gold;
+}
+.btn {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background: blue;
+    color: gold;
+    border-radius: 8px;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.tabShow {
+    transition: all .5s ease-in;
+    display: none;
+    position: absolute;
+}
+
